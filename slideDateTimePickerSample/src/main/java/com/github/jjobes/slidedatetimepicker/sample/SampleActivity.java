@@ -5,7 +5,7 @@ import java.util.Date;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -21,8 +21,7 @@ import com.github.jjobes.slidedatetimepicker.SlideDateTimePicker;
  *
  */
 @SuppressLint("SimpleDateFormat")
-public class SampleActivity extends FragmentActivity
-{
+public class SampleActivity extends AppCompatActivity  {
     private SimpleDateFormat mFormatter = new SimpleDateFormat("MMMM dd yyyy hh:mm aa");
     private Button mButton;
 
